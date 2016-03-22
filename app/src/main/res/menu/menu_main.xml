@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/action_settings_calendar" android:icon="@drawable/calendar_icon"
+        android:orderInCategory="100" android:title="@string/calendar_dialog_actoinbar_text"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/action_settings_microphone" android:icon="@drawable/microphone_icon"
+        android:orderInCategory="50" android:title="@string/microphone_dialog_actoinbar_text"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/action_settings_camera" android:icon="@drawable/camera_icon"
+        android:orderInCategory="10" android:title="@string/camrea_dialog_actoinbar_text"
+        app:showAsAction="always"/>
+</menu>

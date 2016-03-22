@@ -1,0 +1,45 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff000000">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/autoVP"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ff000000" />
+
+    <LinearLayout
+        android:id="@+id/vpindicator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:gravity="center_horizontal|bottom"
+        android:orientation="horizontal" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/r_arrow"
+        android:src="@drawable/r_arrow"
+        android:layout_gravity="right|top"
+        android:visibility="gone"
+       />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/l_arrow"
+        android:src="@drawable/l_arrow"
+        android:layout_gravity="left|top"
+        android:visibility="gone"/>
+
+</FrameLayout>
+<!-- From: file:/Users/lonelyship/memorycapsule/app/src/main/res/layout/fragment_photo.xml -->

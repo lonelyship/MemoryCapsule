@@ -1,0 +1,14 @@
+.gradle/2.2.1/taskArtifacts/cache.properties.lock
+.gradle/2.2.1/taskArtifacts/fileHashes.bin
+.gradle/2.2.1/taskArtifacts/fileSnapshots.bin
+.gradle/2.2.1/taskArtifacts/outputFileStates.bin
+.gradle/2.2.1/taskArtifacts/taskArtifacts.bin
+.idea/workspace.xml
+.gitignore
+.idea/libraries/circleimageview_2_0_0.xml
+.idea/libraries/recyclerview_v7_21_0_3.xml
+app/app.iml
+build/intermediates/model_data.bin
+build/intermediates/dex-cache/cache.xml
+.idea/libraries/caldroid_2_2_0.xml
+.idea/libraries/hirondelle_date4j_1_5_1.xml

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name_US">Memory Capsule</string>
+    <string name="app_name">記憶膠囊</string>
+    <string name="facebook_app_id">1512101549103035</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="ui_string_confirm">確認</string>
+    <string name="ui_string_cancel">取消</string>
+
+    <string name="default_marquee_hint">請在此輸入文字</string>
+
+    <string name="calendar_dialog_actoinbar_text">日曆</string>
+    <string name="microphone_dialog_actoinbar_text">語音</string>
+    <string name="camrea_dialog_actoinbar_text">照相</string>
+
+    <string name="setting_dialog_text_title">相關設定</string>
+    <string name="setting_dialog_text_duration">幾秒換一張:%s</string>
+
+
+    <string-array name="viewpager_transform_animations">
+        <item>AccordionTransformer</item>
+        <item>BackgroundToForegroundTransformer</item>
+        <item>CubeInTransformer</item>
+        <item>CubeOutTransformer</item>
+        <item>DefaultTransformer</item>
+        <item>DepthPageTransformer</item>
+        <item>FlipHorizontalTransformer</item>
+        <item>FlipVerticalTransformer</item>
+        <item>ForegroundToBackgroundTransformer</item>
+        <item>RotateDownTransformer</item>
+        <item>RotateUpTransformer</item>
+        <item>ScaleInOutTransformer</item>
+        <item>StackTransformer</item>
+        <item>TabletTransformer</item>
+        <item>ZoomInTransformer</item>
+        <item>ZoomOutSlideTransformer</item>
+        <item>ZoomOutTranformer</item>
+    </string-array>
+
+    <string-array name="googleVoiceApiLanguages">
+        <item>中文</item>
+        <item>英文</item>
+        <item>日文</item>
+    </string-array>
+
+    <string name="title_activity_login">LoginActivity</string>
+
+</resources>

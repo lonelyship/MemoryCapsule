@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout_Root"
+    android:layout_width="@dimen/ui_dimen_layout_215u"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ui_drawable_dialog_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView_Title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ui_dimen_layout_45u"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@drawable/app_color_dialog_title"
+        android:textSize="@dimen/ui_dimen_fontSize_16u" />
+
+    <ImageView
+        android:id="@+id/imageView_Line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ui_dimen_layout_2u"
+        android:layout_marginLeft="@dimen/ui_dimen_layout_2u"
+        android:layout_marginRight="@dimen/ui_dimen_layout_2u"
+        android:scaleType="fitXY"
+        android:src="@drawable/app_icon_dialog_line" />
+
+    <TextView
+        android:id="@+id/textView_Content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/ui_dimen_layout_10u"
+        android:layout_marginRight="@dimen/ui_dimen_layout_10u"
+        android:layout_marginTop="@dimen/ui_dimen_layout_23u"
+        android:gravity="center"
+        android:text="內文"
+        android:textColor="@drawable/app_color_dialog_text"
+        android:textSize="@dimen/ui_dimen_fontSize_15u" />
+
+    <EditText
+        android:id="@+id/editText_Input"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ui_dimen_layout_80u"
+        android:layout_marginLeft="@dimen/ui_dimen_layout_10u"
+        android:layout_marginRight="@dimen/ui_dimen_layout_10u"
+        android:layout_marginTop="@dimen/ui_dimen_layout_16u"
+        android:background="@drawable/ui_edit_round_angle"
+        android:ems="10"
+        android:paddingLeft="@dimen/ui_dimen_layout_5u"
+        android:singleLine="true"
+        android:textColor="@drawable/ui_color_Black"
+        android:textCursorDrawable="@null"
+        android:textSize="@dimen/ui_dimen_fontSize_15u" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_Button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ui_dimen_layout_28u"
+        android:layout_marginBottom="@dimen/ui_dimen_layout_23u"
+        android:layout_marginLeft="@dimen/ui_dimen_layout_10u"
+        android:layout_marginRight="@dimen/ui_dimen_layout_10u"
+        android:layout_marginTop="@dimen/ui_dimen_layout_16u"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/button_Yes"
+            android:layout_width="@dimen/ui_dimen_layout_95u"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ui_drawable_dialog_button"
+            android:gravity="center"
+            android:text="@string/ui_string_confirm"
+            android:textColor="@drawable/ui_selector_button_text_black"
+            android:textSize="@dimen/ui_dimen_fontSize_15u" />
+
+        <Button
+            android:id="@+id/button_No"
+            android:layout_width="@dimen/ui_dimen_layout_95u"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ui_drawable_dialog_button"
+            android:gravity="center"
+            android:text="@string/ui_string_cancel"
+            android:textColor="@drawable/ui_selector_button_text_black"
+            android:textSize="@dimen/ui_dimen_fontSize_15u" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="日"
+        android:gravity="center"
+        android:id="@+id/tv_day"
+        android:textSize="@dimen/ui_dimen_layout_80u"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ui_dimen_layout_30u"
+        android:text="年"
+        android:textStyle="bold"
+        android:id="@+id/tv_year"
+        android:layout_marginTop="@dimen/ui_dimen_layout_10u"
+        android:layout_marginLeft="@dimen/ui_dimen_layout_10u"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ui_dimen_layout_30u"
+        android:text="月"
+        android:textStyle="bold"
+        android:id="@+id/tv_month"
+        android:layout_alignTop="@+id/tv_year"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/ui_dimen_layout_10u"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/ui_dimen_layout_30u"
+        android:text="星期"
+        android:id="@+id/tv_week"
+        android:layout_marginTop="@dimen/ui_dimen_layout_10u_negative"
+        android:layout_below="@+id/tv_day"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

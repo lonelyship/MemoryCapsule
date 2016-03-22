@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+    android:background="@drawable/wood_bg"
+             >
+
+    <com.lonelyship.CardsSwiped.CardContainer
+        android:id="@+id/layoutview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar_card_swiped"
+
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/l_arrow_card_swiped"
+        android:layout_gravity="bottom|left"
+        android:src="@drawable/l_arrow"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/r_arrow_card_swiped"
+        android:layout_gravity="bottom|right"
+        android:src="@drawable/r_arrow"/>
+    <!-- <com.andtinder.view.CardContainer
+        android:id="@+id/layoutview2"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:orientation="ordered"/> -->
+</FrameLayout>

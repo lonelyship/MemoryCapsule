@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBlueDark"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:elevation="4dp"
+    android:paddingTop="24dp"
+    >
+</android.support.v7.widget.Toolbar><!-- From: file:/Users/lonelyship/memorycapsule/app/src/main/res/layout/tool_bar.xml -->

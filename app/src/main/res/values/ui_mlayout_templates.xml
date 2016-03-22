@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- mLayout 整體定義 -->
+    <!-- 調整為Yahoo模式 全畫面長寬比為「480 x 270」 -->
+    <integer name="ui_integer_activity_weight_sum_vertical">480</integer>
+    <integer name="ui_integer_activity_weight_sum_horizontal">270</integer>
+
+    <!--
+    	mLayout 排版單位定義
+    	在 Xml 檔利用以下定義做版面設計，為了方便 RD 預覽大約的版面，
+    	還需在 Java 檔做 UIDefine 轉換，才是真正的 mLayout 呈現。
+    	
+    	例如：
+    		Xml 檔定義為「android:layout_height="@dimen/ui_dimen_33u"」
+    		Java 檔對應為「View.getLayoutParams().height = UIDefine.getLayoutHeight(View.getLayoutParams().height);」
+    -->
+    <!-- 間隔定義 -->
+    <dimen name="ui_dimen_layout_10u_negative">-10px</dimen>
+    <dimen name="ui_dimen_layout_1u">1px</dimen>
+    <dimen name="ui_dimen_layout_2u">2px</dimen>
+    <dimen name="ui_dimen_layout_3u">3px</dimen>
+    <dimen name="ui_dimen_layout_4u">4px</dimen>    
+    <dimen name="ui_dimen_layout_5u">5px</dimen>
+    <dimen name="ui_dimen_layout_6u">6px</dimen>
+    <dimen name="ui_dimen_layout_7u">7px</dimen>
+    <dimen name="ui_dimen_layout_8u">8px</dimen>
+    <dimen name="ui_dimen_layout_9u">9px</dimen>
+    <dimen name="ui_dimen_layout_10u">10px</dimen>
+    <dimen name="ui_dimen_layout_11u">11px</dimen>
+    <dimen name="ui_dimen_layout_12u">12px</dimen>  
+    <dimen name="ui_dimen_layout_13u">13px</dimen>
+    <dimen name="ui_dimen_layout_14u">14px</dimen>
+    <dimen name="ui_dimen_layout_15u">15px</dimen>
+    <dimen name="ui_dimen_layout_16u">16px</dimen>
+    <dimen name="ui_dimen_layout_17u">17px</dimen>
+    <dimen name="ui_dimen_layout_18u">18px</dimen>
+    <dimen name="ui_dimen_layout_19u">19px</dimen> 
+    <dimen name="ui_dimen_layout_20u">20px</dimen>
+    <dimen name="ui_dimen_layout_21u">21px</dimen>
+    <dimen name="ui_dimen_layout_22u">22px</dimen>
+    <dimen name="ui_dimen_layout_23u">23px</dimen>
+    <dimen name="ui_dimen_layout_24u">24px</dimen>
+    <dimen name="ui_dimen_layout_25u">25px</dimen>
+    <dimen name="ui_dimen_layout_26u">26px</dimen>
+    <dimen name="ui_dimen_layout_27u">27px</dimen>
+    <dimen name="ui_dimen_layout_28u">28px</dimen>
+    <dimen name="ui_dimen_layout_29u">29px</dimen>
+    <dimen name="ui_dimen_layout_30u">30px</dimen>
+    <dimen name="ui_dimen_layout_31u">31px</dimen>
+    <dimen name="ui_dimen_layout_32u">32px</dimen>
+    <dimen name="ui_dimen_layout_33u">33px</dimen>
+    <dimen name="ui_dimen_layout_34u">34px</dimen>
+    <dimen name="ui_dimen_layout_35u">35px</dimen>
+    <dimen name="ui_dimen_layout_36u">36px</dimen>
+    <dimen name="ui_dimen_layout_37u">37px</dimen>
+    <dimen name="ui_dimen_layout_38u">38px</dimen>
+    <dimen name="ui_dimen_layout_39u">39px</dimen>
+    <dimen name="ui_dimen_layout_40u">40px</dimen> 
+    <dimen name="ui_dimen_layout_42u">42px</dimen> 
+    <dimen name="ui_dimen_layout_43u">43px</dimen>
+    <dimen name="ui_dimen_layout_44u">44px</dimen>
+    <dimen name="ui_dimen_layout_45u">45px</dimen>
+    <dimen name="ui_dimen_layout_46u">46px</dimen>
+    <dimen name="ui_dimen_layout_47u">47px</dimen>
+    <dimen name="ui_dimen_layout_48u">48px</dimen>
+    <dimen name="ui_dimen_layout_49u">49px</dimen>
+    <dimen name="ui_dimen_layout_50u">50px</dimen>
+    <dimen name="ui_dimen_layout_51u">51px</dimen>
+    <dimen name="ui_dimen_layout_52u">52px</dimen>
+    <dimen name="ui_dimen_layout_53u">53px</dimen>
+    <dimen name="ui_dimen_layout_54u">54px</dimen>
+    <dimen name="ui_dimen_layout_55u">55px</dimen>
+    <dimen name="ui_dimen_layout_56u">56px</dimen>
+    <dimen name="ui_dimen_layout_57u">57px</dimen>
+    <dimen name="ui_dimen_layout_58u">58px</dimen>
+    <dimen name="ui_dimen_layout_59u">59px</dimen>
+    <dimen name="ui_dimen_layout_60u">60px</dimen>
+    <dimen name="ui_dimen_layout_61u">61px</dimen>
+    <dimen name="ui_dimen_layout_62u">62px</dimen>
+    <dimen name="ui_dimen_layout_63u">63px</dimen>
+    <dimen name="ui_dimen_layout_64u">64px</dimen>
+    <dimen name="ui_dimen_layout_65u">65px</dimen>
+    <dimen name="ui_dimen_layout_66u">66px</dimen>
+    <dimen name="ui_dimen_layout_67u">67px</dimen>
+    <dimen name="ui_dimen_layout_68u">68px</dimen>
+ 	<dimen name="ui_dimen_layout_69u">69px</dimen>
+ 	<dimen name="ui_dimen_layout_70u">70px</dimen>	
+ 	<dimen name="ui_dimen_layout_71u">71px</dimen>
+ 	<dimen name="ui_dimen_layout_72u">72px</dimen>	
+ 	<dimen name="ui_dimen_layout_73u">73px</dimen>
+ 	<dimen name="ui_dimen_layout_74u">74px</dimen>	
+ 	<dimen name="ui_dimen_layout_75u">75px</dimen>	
+    <dimen name="ui_dimen_layout_76u">76px</dimen>	    		
+    <dimen name="ui_dimen_layout_77u">77px</dimen>	    
+    <dimen name="ui_dimen_layout_78u">78px</dimen>
+    <dimen name="ui_dimen_layout_79u">79px</dimen>
+    <dimen name="ui_dimen_layout_80u">80px</dimen>
+    <dimen name="ui_dimen_layout_81u">81px</dimen>
+    <dimen name="ui_dimen_layout_83u">83px</dimen>
+    <dimen name="ui_dimen_layout_84u">84px</dimen>
+    <dimen name="ui_dimen_layout_85u">85px</dimen>
+    <dimen name="ui_dimen_layout_86u">86px</dimen>
+    <dimen name="ui_dimen_layout_88u">88px</dimen>
+	<dimen name="ui_dimen_layout_89u">89px</dimen>   
+	<dimen name="ui_dimen_layout_90u">90px</dimen>  
+	<dimen name="ui_dimen_layout_91u">91px</dimen>  
+	<dimen name="ui_dimen_layout_92u">92px</dimen>
+	<dimen name="ui_dimen_layout_95u">95px</dimen>
+	<dimen name="ui_dimen_layout_96u">96px</dimen>
+	<dimen name="ui_dimen_layout_97u">97px</dimen>  
+	<dimen name="ui_dimen_layout_98u">98px</dimen>  
+	<dimen name="ui_dimen_layout_99u">99px</dimen> 
+	<dimen name="ui_dimen_layout_100u">100px</dimen>  
+	<dimen name="ui_dimen_layout_102u">102px</dimen>
+	<dimen name="ui_dimen_layout_104u">104px</dimen>
+	<dimen name="ui_dimen_layout_105u">105px</dimen>
+	<dimen name="ui_dimen_layout_107u">107px</dimen>
+	<dimen name="ui_dimen_layout_108u">108px</dimen>
+	<dimen name="ui_dimen_layout_110u">110px</dimen>
+    <dimen name="ui_dimen_layout_115u">115px</dimen>
+    <dimen name="ui_dimen_layout_116u">116px</dimen>
+    <dimen name="ui_dimen_layout_118u">118px</dimen>
+    <dimen name="ui_dimen_layout_120u">120px</dimen>
+    <dimen name="ui_dimen_layout_123u">123px</dimen>
+    <dimen name="ui_dimen_layout_124u">124px</dimen>
+    <dimen name="ui_dimen_layout_125u">125px</dimen>
+    <dimen name="ui_dimen_layout_129u">129px</dimen>
+    <dimen name="ui_dimen_layout_130u">130px</dimen>
+    <dimen name="ui_dimen_layout_135u">135px</dimen>
+    <dimen name="ui_dimen_layout_138u">138px</dimen>
+ 	<dimen name="ui_dimen_layout_140u">140px</dimen>    
+ 	<dimen name="ui_dimen_layout_144u">144px</dimen>
+    <dimen name="ui_dimen_layout_153u">153px</dimen>
+    <dimen name="ui_dimen_layout_156u">156px</dimen>
+    <dimen name="ui_dimen_layout_160u">160px</dimen>
+ 	<dimen name="ui_dimen_layout_163u">163px</dimen> 
+ 	<dimen name="ui_dimen_layout_178u">178px</dimen> 
+ 	<dimen name="ui_dimen_layout_185u">185px</dimen> 
+ 	<dimen name="ui_dimen_layout_190u">190px</dimen>  
+    <dimen name="ui_dimen_layout_195u">195px</dimen>
+    <dimen name="ui_dimen_layout_196u">196px</dimen>
+    <dimen name="ui_dimen_layout_197u">197px</dimen>
+    <dimen name="ui_dimen_layout_200u">200px</dimen>
+    <dimen name="ui_dimen_layout_202u">202px</dimen>
+    <dimen name="ui_dimen_layout_208u">208px</dimen>
+    <dimen name="ui_dimen_layout_211u">211px</dimen>
+    <dimen name="ui_dimen_layout_215u">215px</dimen>
+    <dimen name="ui_dimen_layout_216u">216px</dimen>
+    <dimen name="ui_dimen_layout_217u">217px</dimen>
+    <dimen name="ui_dimen_layout_225u">225px</dimen>
+    <dimen name="ui_dimen_layout_230u">230px</dimen>
+    <dimen name="ui_dimen_layout_231u">231px</dimen>
+    <dimen name="ui_dimen_layout_235u">235px</dimen>
+    <dimen name="ui_dimen_layout_250u">250px</dimen>
+    <dimen name="ui_dimen_layout_251u">251px</dimen>
+    <dimen name="ui_dimen_layout_290u">290px</dimen>
+    <dimen name="ui_dimen_layout_350u">350px</dimen>
+    <dimen name="ui_dimen_layout_360u">360px</dimen>
+    <dimen name="ui_dimen_layout_408u">408px</dimen>
+    <!-- 字型定義，內容需同 UIDefine 字型定義 -->
+    <dimen name="ui_dimen_fontSize_8u">8px</dimen>
+    <dimen name="ui_dimen_fontSize_10u">10px</dimen>
+    <dimen name="ui_dimen_fontSize_11u">11px</dimen>
+    <dimen name="ui_dimen_fontSize_12u">12px</dimen>
+    <dimen name="ui_dimen_fontSize_13u">13px</dimen>
+    <dimen name="ui_dimen_fontSize_14u">14px</dimen>
+    <dimen name="ui_dimen_fontSize_15u">15px</dimen>
+    <dimen name="ui_dimen_fontSize_16u">16px</dimen>
+    <dimen name="ui_dimen_fontSize_18u">18px</dimen>
+    <dimen name="ui_dimen_fontSize_20u">20px</dimen>
+    <dimen name="ui_dimen_fontSize_23u">23px</dimen>
+    <dimen name="ui_dimen_fontSize_26u">26px</dimen>
+    <dimen name="ui_dimen_fontSize_30u">30px</dimen>
+
+    <!-- mLayout LayoutTemplate_test -->
+    <!-- 長寬比為「150 x 90」 -->
+    <integer name="ui_integer_layout_template_test_weight_fragment_1">30</integer>
+    <integer name="ui_integer_layout_template_test_weight_fragment_2">40</integer>
+    <integer name="ui_integer_layout_template_test_weight_fragment_3">80</integer>
+    <string name="ui_string_layout_template_test_fragment_1">Fragment_1 30 x 90</string>
+    <string name="ui_string_layout_template_test_fragment_2">Fragment_2 40 x 90</string>
+    <string name="ui_string_layout_template_test_fragment_3">Fragment_3 80 x 90</string>
+    <declare-styleable name="ui_styleable_layout_template_test">
+        <attr name="Fragment_1_Class" format="string" />
+        <attr name="Fragment_1_Tag" format="string" />
+        <attr name="Fragment_2_Class" format="string" />
+        <attr name="Fragment_2_Tag" format="string" />
+        <attr name="Fragment_3_Class" format="string" />
+        <attr name="Fragment_3_Tag" format="string" />
+    </declare-styleable>
+
+</resources>

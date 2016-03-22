@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ******************* Dialog 共用 ********************* -->
+    <!-- Dialog 共用之「標題文字」色 -->
+    <drawable name="app_color_dialog_title">#E06521</drawable>
+    <!-- Dialog 共用之「文字」色 -->
+    <drawable name="app_color_dialog_text">#555555</drawable>
+    <drawable name="app_color_dialog_text_warning">#FF0000</drawable>
+
+
+    <!-- 白 -->
+    <drawable name="ui_color_White">#FFFFFF</drawable>
+    <!-- 橘 -->
+    <drawable name="ui_color_Orange">#FF8E00</drawable>
+    <!-- 黑 -->
+    <drawable name="ui_color_Black">#000000</drawable>
+    <!-- 深灰 -->
+    <drawable name="ui_color_DisableGray">#424242</drawable>
+    <!-- 紅色Style -->
+    <drawable name="app_color_Red">#C13424</drawable>
+    <drawable name="about_me_dialog_color_white">#FFFFFF</drawable>
+    <!-- 全透明 -->
+    <drawable name="ui_color_Transparent">#00000000</drawable>
+    <!-- 主畫面時間背景 -->
+    <drawable name="ui_color_activity_main_viewPager_time_bg">#940593</drawable>
+    <!-- 主畫面內容背景 -->
+    <drawable name="ui_color_activity_main_viewPager_content_bg">#336688</drawable>
+    <!-- 亮藍 -->
+    <drawable name="ui_color_blue_light">#2196F3</drawable>
+
+    <color name="card_bg">#EBEBEB</color>
+    <color name="card_outline">#D0D0CE</color>
+
+</resources>

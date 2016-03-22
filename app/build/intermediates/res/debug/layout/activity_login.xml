@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".LoginActivity">
+
+
+    <fragment
+        android:id="@+id/google_plus_login_fragment"
+        class="com.lonelyship.Main.GooglePlusLoginFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <fragment
+        android:id="@+id/facebook_login_fragment"
+        class="com.lonelyship.Main.FaceBookLoginFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout><!-- From: file:/Users/lonelyship/memorycapsule/app/src/main/res/layout/activity_login.xml -->
